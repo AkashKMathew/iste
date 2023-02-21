@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Satoshi-Regular;
+  src: url(./assets/fonts/Satoshi-Regular.otf);
+}
+@font-face {
+  font-family: Satoshi-Black;
+  src: url(./assets/fonts/Satoshi-Black.otf);
+}
+@font-face {
+  font-family: Satoshi-Bold;
+  src: url(./assets/fonts/Satoshi-Bold.otf);
+}
+@font-face {
+  font-family: Satoshi-Light;
+  src: url(./assets/fonts/Satoshi-Light.otf);
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+     */
+     font-family: 'Satoshi-Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+   overflow-x: hidden;
+   background-image: linear-gradient(180deg, rgb(0, 0, 0),rgb(0, 0, 0), rgb(34, 32, 32),rgb(82, 82, 82));
+
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+html{
+  scrollbar-width: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+HTML, BODY {
+  /* height: 100%;
+  font-size: 16px;
+  line-height: 1.5; */
+  font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+
+}

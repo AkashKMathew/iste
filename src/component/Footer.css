@@ -1,0 +1,140 @@
+.Footer{
+    background-color: rgb(65, 63, 63);
+    display: flex;
+    cursor: pointer;
+    height: 5vw;
+    width: 100%;
+  
+}
+.logofoot img{
+    width: 20vw;
+    padding-top: 1vw;
+
+     
+}
+.icon{
+    fill: white;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.logofoot {
+        /* background-color: red; */
+        width: 33vw;
+        /* height: 15vw; */
+        /* padding-left: 10px; */
+        display: flex;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
+}
+.enquiry{
+    display: flex;
+    /* background-color: aqua; */
+    width: 33vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.enquiry a{
+    
+    color: white;
+}
+.enquiry ul{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.enquiry a{
+    padding: 2vw;
+}
+.links{
+    /* background-color: yellow; */
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.icons{
+    /* background-color: chocolate; */
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+
+}
+
+.social{
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+.icons a:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 11px rgb(255, 255, 255); 
+    transition:  .5s ease-in-out;
+   
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .Footer{
+        height: 20vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logofoot{
+        /* background-color: red; */
+        width: 100%;
+        height: 50%;
+
+    }
+    .logofoot img{
+        width: 50%;
+        /* color: black; */
+    }
+    .enquiry{
+        width: 100%;
+        /* background-color: brown; */
+        display: flex;
+        font-size: 3vw;
+        flex-direction: row;
+
+    }
+    
+    .links{
+        /* background-color: yellow; */
+        width: 100%;
+        display: flex;
+    }
+    .social{
+        font-size: 5vw;
+        margin-top: 1vw;
+        padding-bottom: 0px;
+    }
+    .icons{
+        /* background-color: chocolate; */
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 4vw;
+        
+    
+    
+    }
+    .icon{
+        width: 4vw;
+        height: 4vw;
+    }
+    
+    
+}
+

@@ -1,0 +1,183 @@
+  /* background-image: linear-gradient(180deg,#fd2000,#df007c);*/
+
+  .Details{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    text-align: center;
+    
+  }
+
+  .Details h1{
+    font-size: 2rem;
+    font-family: 'Satoshi-Bold';
+  }
+  .vision{
+  color:white;
+  height: 32vw;
+  width: 30vw;
+  margin-top: 1vw;
+  padding: 1.5vw;
+  box-shadow: rgb(0, 0, 0) 0.2px 0px 0px ;
+  border-radius: 3vw 8vw;
+  
+  background: rgba(0, 0, 0, 0.5); 
+  
+  z-index: 2;
+
+  /* background: radial-gradient(ellipse at top,   rgb(60, 59, 60), transparent),
+  radial-gradient(ellipse at bottom,  rgb(108, 103, 103), transparent),
+  radial-gradient(closest-corner at 40px 40px ,rgb(0, 0, 0) 20%,rgb(0, 0, 0) 100%); */
+
+  font-size: 4vw;
+ 
+  }
+
+.vision:hover{
+  transform: translateY(-5px);
+  
+  box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
+            1px 2px 4px 0px rgba(225, 0, 255, 0.996),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(225, 0, 255, 0.996);
+            transition: .1s ease-in-out;
+}
+.mission:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
+            1px 2px 4px 0px rgba(225, 0, 255, 0.996),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(225, 0, 255, 0.996);
+            transition: .1s ease-in-out;
+}
+
+.announcement:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
+            1px 2px 4px 0px rgba(225, 0, 255, 0.996),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(225, 0, 255, 0.996);
+            transition: .1s ease-in-out;
+}
+
+.Dcontent{
+  font-family: 'Satoshi-Regular';
+  line-height: 4vw;
+  font-weight: bold;
+  font-size: 1.4vw;
+  text-align: center;
+  padding-top: 0.5vw;
+}
+.mission{
+  height: 32vw;
+  width: 30vw;
+
+  border-radius: 3vw 8vw;
+  margin-top: 1vw;
+  padding: 1.5vw;
+  box-shadow: rgb(0, 0, 0) 0.2px 0px 0px ;
+
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  z-index: 2;
+  /* background: radial-gradient(ellipse at top,   rgb(60, 59, 60), transparent),
+  radial-gradient(ellipse at bottom,  rgb(108, 103, 103), transparent),
+  radial-gradient(closest-corner at 40px 40px ,rgb(0, 0, 0) 20%,rgb(0, 0, 0) 100%); */
+
+  font-size: 4vw;
+}
+.announcement{
+  height: 32vw;
+  width: 30vw;
+ 
+  border-radius: 3vw 8vw;
+  margin-top: 1vw;
+  padding: 1.5vw;
+  box-shadow: rgb(0, 0, 0) 0.2px 0px 0px ;
+ 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  z-index: 2;
+  /* background: radial-gradient(ellipse at top,   rgb(60, 59, 60), transparent),
+  radial-gradient(ellipse at bottom,  rgb(108, 103, 103), transparent),
+  radial-gradient(closest-corner at 40px 40px ,rgb(0, 0, 0) 20%,rgb(0, 0, 0) 100%); */
+  
+  font-size: 4vw;
+}
+.vision h1{
+  text-shadow: rgb(209, 80, 232) 3px 1px 1px ;
+}
+.mission h1{
+  text-shadow: rgb(209, 80, 232) 3px 1px 1px ;
+}
+.announcement h1{
+  text-shadow: rgb(209, 80, 232) 3px 1px 1px ;
+}
+@media screen and (min-width:768px) {
+.Details h1{
+  font-size: 3vw;
+}
+.vision h1{
+  font-size: 3vw;
+}
+.announcement h1{
+  font-size: 3vw;
+}
+}
+
+@media screen and (max-width:600px){
+.Details{
+  display: flex;
+  flex-direction:column;
+  color: white;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  
+}
+.vision{
+  width: 75vw;
+  box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
+            1px 2px 4px 0px rgba(225, 0, 255, 0.996),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 6px 0px rgba(225, 0, 255, 0.996);
+}
+.mission{
+  margin-top: 4vw;
+  width: 75vw;
+    box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
+            1px 2px 4px 0px rgba(225, 0, 255, 0.996),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 6px 0px rgba(225, 0, 255, 0.996);
+    
+}
+.announcement{
+  margin-top: 4vw;
+  width: 75vw;
+  box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
+            1px 2px 4px 0px rgba(225, 0, 255, 0.996),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 6px 0px rgba(225, 0, 255, 0.996);
+  
+}
+.Details h1{
+  font-size: 2rem;
+}
+.Dcontent{
+  font-size: 2.5vw;
+}
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(4vh);
+  visibility: hidden;
+  transition: opacity 1s ease-out, transform 2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
